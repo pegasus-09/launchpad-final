@@ -7,8 +7,8 @@ export default function Homepage() {
       <nav className="navbar">
         <div className="nav-left">launchpad</div>
         <div className="nav-right">
-          <a href="/">About</a>
-          <a href="/signup">Career Quiz</a>
+            <a href="/">About</a>
+            <a href="/signup">Career Quiz</a>
             <a href="/signup">Resume Builder</a>
           <button className="login-btn" onClick={() => window.location.href = "/login"}>
   Log in
