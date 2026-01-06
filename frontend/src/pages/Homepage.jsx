@@ -1,15 +1,15 @@
 import "./Homepage.css";
 
 export default function Homepage() {
-  return (
+    return (
     <div className="homepage">
       {/* NAVBAR */}
       <nav className="navbar">
         <div className="nav-left">launchpad</div>
         <div className="nav-right">
-          <a href="#about">About</a>
-          <a href="#resume">Resume Builder</a>
-          <a href="#quiz">Career Quiz</a>
+          <a href="/">About</a>
+          <a href="/signup">Career Quiz</a>
+            <a href="/signup">Resume Builder</a>
           <button className="login-btn" onClick={() => window.location.href = "/login"}>
   Log in
 </button>
@@ -99,7 +99,7 @@ export default function Homepage() {
       {/* CTA */}
       <section className="cta">
         <h2>Ready to find your future?</h2>
-        <button className="primary">Sign up</button>
+        <button className="primary" onClick={() => window.location.href = "/signup"}>Sign up</button>
       </section>
 
       {/* FOOTER */}
