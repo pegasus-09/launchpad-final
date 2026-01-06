@@ -1,0 +1,106 @@
+.auth-page {
+  display: flex;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.auth-page.reverse {
+  flex-direction: row-reverse;
+}
+
+/* LEFT PANEL */
+.auth-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teal {
+  background: #35bdb2;
+}
+
+.purple {
+  background: #5b3cff;
+}
+
+.star {
+  width: 160px;
+  height: 160px;
+  background: white;
+  border-radius: 40%;
+}
+
+/* RIGHT PANEL */
+.auth-right {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-right h1 {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.accent {
+  font-weight: 700;
+}
+
+.teal-text {
+  color: #35bdb2;
+}
+
+.purple-text {
+  color: #5b3cff;
+}
+
+.auth-right input {
+  width: 320px;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.primary {
+  border: none;
+  padding: 14px;
+  width: 160px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.primary.purple {
+  background: #5b3cff;
+}
+
+.outline {
+  background: transparent;
+  padding: 14px;
+  width: 160px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.teal-border {
+  border: 2px solid #35bdb2;
+}
+
+/* SWITCH TEXT */
+.switch {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: black;
+  text-decoration: underline;
+}
