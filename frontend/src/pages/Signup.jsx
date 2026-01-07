@@ -2,7 +2,6 @@ import "../styles/Auth.css";
 import { useNavigate } from "react-router-dom";
 import ExitButton from "../components/ExitButton.jsx";
 
-
 export default function Signup() {
     const navigate = useNavigate();
 
