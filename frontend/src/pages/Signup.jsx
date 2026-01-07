@@ -1,7 +1,12 @@
-import "./Auth.css";
+import "../styles/Auth.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import ExitButton from "../components/ExitButton.jsx";
+
 
 export default function Signup() {
+    const navigate = useNavigate();
+
     return (
         <div className="auth-page reverse">
             <div className="auth-left purple">
@@ -9,6 +14,7 @@ export default function Signup() {
             </div>
 
             <div className="auth-right">
+                <ExitButton position="top-left"/>
                 <h1>
                     <span className="accent purple-text">Sign up</span>
                     <br />
@@ -21,10 +27,8 @@ export default function Signup() {
                 <button className="primary purple">
                     Sign up
                 </button>
-
-                <p className="switch">
-                    I already have an account{" "}
-                    <Link to="/login">Log in</Link>
+                <p className="clickable switch" onClick={() => navigate("/login")}>
+                    I already have an account
                 </p>
             </div>
         </div>
