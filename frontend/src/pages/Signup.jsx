@@ -1,5 +1,4 @@
 import "../styles/Auth.css";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import ExitButton from "../components/ExitButton.jsx";
 
